@@ -10,7 +10,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
-    background-color: rgb(153, 153, 153);
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 header li {
@@ -18,3 +21,31 @@ header li {
     padding-left: 10px;
     list-style: none;
 }
+ header a {
+    text-decoration: none;
+    color: black;
+ }
+
+ header a:hover {
+    color: blue;
+ }
+
+ /* Hero Section */
+ 
+ .hero-section {
+    display: flex;
+    align-items: center;
+    height: 560px;
+    padding: 15px;
+    background: url(https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&w=600) rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+    z-index: -5;
+ }  
+
+ .hero-section h1 {
+    text-align: center;
+    width: 50%;
+    border: 1px solid red;
+ }
