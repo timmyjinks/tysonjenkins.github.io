@@ -14,40 +14,55 @@ header {
     position: absolute;
     left: 0;
     right: 0;
+    color: white;
 }
 
-header li {
+.nav-bar {
     display: inline-block;
     padding-left: 10px;
     list-style: none;
 }
- header a {
-    text-decoration: none;
-    color: black;
- }
 
- header a:hover {
-    color: blue;
- }
+.nav-bar a:hover{
+   color: blue;
+}
+
+header a {
+   text-decoration: none;
+   color: white;
+}
 
  /* Hero Section */
  
  .hero-section {
     display: flex;
     align-items: center;
-    height: 560px;
+    height: 620px;
     padding: 15px;
-    background: url(https://images.pexels.com/photos/50711/board-electronics-computer-data-processing-50711.jpeg?auto=compress&cs=tinysrgb&w=600) rgba(0, 0, 0, 0.6);
+    background: url(https://images.unsplash.com/photo-1572666341285-c8cb9790ca50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0ZXIlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) rgba(0, 0, 0, 0.6) fixed;
     background-size: cover;
     background-blend-mode: darken;
     position: relative;
     z-index: -5;
+    color: white;
  }  
 
  .hero-section h1 {
     text-align: center;
     width: 50%;
-    border: 1px solid red;
  }
 
- /* About Me Section dd*/
+ /* About Me Section */
+ .projects-section {
+
+ }
+
+ .projects-section h2 {
+   text-align: center;
+ }
+
+ .projects {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
